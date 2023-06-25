@@ -11,13 +11,14 @@ Kupon oluşturma listeleme ve silme apileri
 
 **Tech-Stack
 Veri tabanı (Postgresql,Mssql) alt yapısı hazırlandı.Proje kapsamında MsSql kullanıldı.
-Database için CodeFirst yaklaşımı kullanıldı.
-JWT token (Yetkilendirme)
-EF-Repositroy - Unitofwork
-Postman View Dokument = https://documenter.getpostman.com/view/14710639/2s93z6ejYD
-Redis (Basket controller)
-MediatR (Order controller)
-FluentValidation
+Database için CodeFirst yaklaşımı kullanıldı. Migration oluşturuldu.
+JWT token (Yetkilendirme) kullanıldı.
+EF-Repositroy - Unitofwork ikiside kullanıldı.
+Postman View document = https://documenter.getpostman.com/view/14710639/2s93z6ejYD
+Postman için collection.json dosyasıda eklendi.
+Redis (Basket controller) da kullanıldı.
+MediatR (Order controller) da kullanıldı.
+FluentValidation kullanıldı.
 
 Docker Redis için cli komutları
 docker pull redis
