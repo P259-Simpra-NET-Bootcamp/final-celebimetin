@@ -13,11 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schema", "Schema\Schema.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{DD2223F1-181F-4E9E-91D3-D35EA0B81E29}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PostmanCollection", "PostmanCollection", "{A5D346C5-42C3-464A-A70D-01F46DC76413}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Downloads\Simpra .Net Bootcamp.postman_collection.json = ..\..\..\Downloads\Simpra .Net Bootcamp.postman_collection.json
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
