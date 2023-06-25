@@ -19,6 +19,6 @@ Redis (Basket controller)
 MediatR (Order controller)
 FluentValidation
 
-Redis için cli komutları
+Docker Redis için cli komutları
 docker pull redis
 docker run --name redis-baskets -p 6379:6379 -d redis
