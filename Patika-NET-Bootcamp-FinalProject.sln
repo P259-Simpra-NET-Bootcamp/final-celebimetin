@@ -5,13 +5,18 @@ VisualStudioVersion = 17.7.33711.374
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{F9704276-A820-42BA-B5F4-3B16D1BC0B02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{68F0A055-9689-4D5E-82C6-FAE03B69551F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{68F0A055-9689-4D5E-82C6-FAE03B69551F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operation", "Operation\Operation.csproj", "{BD1E25AD-4E11-4A32-93DB-EA0A393BC6E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operation", "Operation\Operation.csproj", "{BD1E25AD-4E11-4A32-93DB-EA0A393BC6E7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schema", "Schema\Schema.csproj", "{EDD665B7-9342-427E-AA15-8FDEDBD4732F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{DD2223F1-181F-4E9E-91D3-D35EA0B81E29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{DD2223F1-181F-4E9E-91D3-D35EA0B81E29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PostmanCollection", "PostmanCollection", "{A5D346C5-42C3-464A-A70D-01F46DC76413}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\Simpra .Net Bootcamp.postman_collection.json = ..\..\..\Downloads\Simpra .Net Bootcamp.postman_collection.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
