@@ -1,1 +1,24 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/EBv50WFu)
+final projects
+**İhtiyaçlar
+Kategori ekleme güncelleme apileri. Listeleme apileri.
+Kategori bazlı urun listeleme apisi .
+Kategori silme apisi (Kategoride ürün varsa silinemez)
+Ürün ekleme güncelleme apisi. Listeleme apisi. Silme apisi
+Kullanıcı oluşturma apisi. Login apisi. Kullanıcı güncelleme ve silme apisi. Yetkilendirme icin jwt token altyapısı
+Sipariş apileri, oluşturma , aktif siparişler, geçmiş sipariş apileri
+Sipariş detay apisi, siparişteki ürün bilgileri
+Kupon oluşturma listeleme ve silme apileri
+
+**Tech-Stack
+Veri tabanı (Postgresql,Mssql) alt yapısı hazırlandı.Proje kapsamında MsSql kullanıldı.
+Database için CodeFirst yaklaşımı kullanıldı.
+JWT token (Yetkilendirme)
+EF-Repositroy - Unitofwork
+Postman
+Redis (Basket controller)
+MediatR (Order controller)
+FluentValidation
+
+Redis için cli komutları
+docker pull redis
+docker run --name redis-baskets -p 6379:6379 -d redis
