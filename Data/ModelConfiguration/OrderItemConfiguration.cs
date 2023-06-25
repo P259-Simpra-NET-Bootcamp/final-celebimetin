@@ -8,7 +8,6 @@ namespace Data.ModelConfiguration
     {
         public void Configure(EntityTypeBuilder<OrderItem> builder)
         {
-            builder.ToTable(name: "OrderItems", schema: "dbo");
             builder.Property(x => x.ProductId).IsRequired(true);
             builder.Property(x => x.ProductName).IsRequired(true).HasMaxLength(100);
             builder.Property(x => x.Price).IsRequired(true).HasPrecision(18, 2).HasDefaultValue(0);

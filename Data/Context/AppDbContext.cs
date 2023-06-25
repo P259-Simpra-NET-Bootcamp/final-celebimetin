@@ -26,11 +26,11 @@ namespace Data.Context
             builder.ApplyConfiguration(new UserRefreshTokenConfiguration());
             builder.ApplyConfiguration(new DigitalWalletConfiguration());
             builder.ApplyConfiguration(new UserAppConfiguration());
-            builder.ApplyConfiguration(new AddressConfiguration());
             builder.ApplyConfiguration(new OrderItemConfiguration());
 
             builder.Entity<Order>().ToTable("Orders", "dbo");
             builder.Entity<Order>().OwnsOne(x => x.Address).WithOwner();
+            builder.Entity<OrderItem>().ToTable("OrderItems", "dbo");
 
             base.OnModelCreating(builder);
             builder.Seed();
