@@ -14,7 +14,7 @@ Veri tabanı (Postgresql,Mssql) alt yapısı hazırlandı.Proje kapsamında MsSq
 Database için CodeFirst yaklaşımı kullanıldı.
 JWT token (Yetkilendirme)
 EF-Repositroy - Unitofwork
-Postman
+Postman View Dokument = https://documenter.getpostman.com/view/14710639/2s93z6ejYD
 Redis (Basket controller)
 MediatR (Order controller)
 FluentValidation
