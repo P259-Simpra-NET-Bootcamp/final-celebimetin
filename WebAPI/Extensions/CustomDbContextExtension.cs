@@ -19,7 +19,7 @@ namespace WebAPI.Extensions
             else if (dbType == AppSettings.PostgreSql)
             {
                 var dbConfig = Configuration.GetConnectionString(AppSettings.PostgreSqlConnection);
-                services.AddDbContext<AppDbContext>(options => options.UseSqlServer(dbConfig));
+                services.AddDbContext<AppDbContext>(options => options.UseNpgsql(dbConfig));
             }
         }
     }
